@@ -1,0 +1,4 @@
+id,name,model_id/id,group_id/id,perm_read,perm_write,perm_create,perm_unlink
+access_mi_modulo,mi_modulo_user,mi_modulo.model_mi_modulo,,1,0,0,0
+
+dfq6-uhk4-xvwk

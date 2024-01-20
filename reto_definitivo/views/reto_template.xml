@@ -1,0 +1,13 @@
+<odoo>
+    <template id="reto_template">
+        <link rel="stylesheet" type="text/css" href="/reto/static/src/css/mi_estilo.css"/>
+        <div class="custom-body">
+            <t t-if="user">
+                <h1>Hello, <t t-esc="user.name"/>!</h1>
+            </t>
+            <t t-else="">
+                <h1>Hello World!</h1>
+            </t>
+        </div>
+    </template>
+</odoo>
